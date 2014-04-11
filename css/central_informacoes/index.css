@@ -1,0 +1,121 @@
+body{margin:0;padding:0;}
+	.topo{height:200px;background-image:url(../../images/central_informacoes/bgTopo.png);margin:0; padding-top:10px;}
+			
+		.topo .codCliente{display:none;height:70px;color:#fff;font-family:Tahoma, Geneva, sans-serif;margin-top:-10px;}
+		.topo .codigo{display:none;width:200px;height:30px;background-color:#3e72bb;float:left;margin:0 0 0 10px;padding:30px 20px 0 20px;border-bottom-right-radius: 1em;border-bottom-left-radius: 1em;}
+		.topo .cliente{display:none;min-width:300px;height:30px;background-color:#3e72bb;float:left;margin:0 0 0 10px;padding:30px 20px 0 20px;border-bottom-right-radius:1em;border-bottom-left-radius:1em;}
+		
+		.topo .primeiroAcesso{width:350px;height:38px;padding:20px 0 0 10px;background-color:#ffec85;border-top-right-radius:0.5em;border-bottom-right-radius:0.5em;border:1px solid #CCC;}
+		.topo .primeiroAcesso span{color:#6f6f6f; font-size:16px; font-family:Verdana, Geneva, sans-serif;}
+			
+		/* CSS SÓ PARA PERSONALIZAÇÃO DO RADIO*/
+		.topo .radio{margin:10px 0 0 10px;}
+		.topo label{display:inline-block;cursor:pointer;position:relative;padding-left: 25px;margin-right: 15px;font-size: 16px;color: #767676;font-family:Verdana, Geneva, sans-serif;} 
+		.topo input[type=radio]{display:none;}
+		.topo label:before {content:"";display:inline-block;width:16px;height:16px;margin-right:10px;position:absolute;left:0;bottombottom:1px;background-color: #aaa;box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);}
+		.topo .radio label:before{border-radius: 8px;}
+		.topo input[type=radio]:checked + label:before{content: "\2022";color:#f3f3f3;font-size:22px;text-align:center;line-height:13px;}    
+		/* FIM CSS SÓ PARA PERSONALIZAÇÃO DO RADIO*/
+		
+		.topo select{height:40px;font-family:Verdana, Geneva, sans-serif;font-size:14px;color:#767676;margin:10px 0 0 10px;cursor:pointer;}
+		@-moz-document url-prefix(){
+			 .topo select{padding:10px 0 0 0;} }
+
+#main{background-color:#ffffcc;}
+
+#ITEM_0 {
+	
+    background-image: url("../../images/central_informacoes/scriptcase__NM__space_blue.jpg");
+	 border-color: #A3C0E8;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+	font-size:16px;
+	color:#006633;"
+	font-weight: bold;
+}
+
+#itemPai {
+	
+    background-image: url("../../images/central_informacoes/scriptcase__NM__space_blue.jpg");
+	border-color: #A3C0E8;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+	font-size:16px;
+	color:#006633;"
+	font-weight: bold;
+	font-family:Verdana, Geneva, sans-serif;
+}
+	#itemPai .divisaoInterna{border-left:2px solid #A3C0E8; padding-left:20px;}
+	#item_01 table{border:2px solid #A3C0E8;}
+
+.divisao {
+    background-image: url("../../../img/scriptcase__NM__space_blue.jpg");
+	 border-color: #A3C0E8;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+	font-size:16px;
+	color:#006633;"
+	font-weight: bold;
+}
+
+#listar_historico_comercial {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+
+.titulo_tabela
+{
+	background-image: url("../../images/central_informacoes/scriptcase__NM__space_blue.jpg");
+    border-color: #A3C0E8;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 4px;
+    text-decoration: none;
+	
+}
+
+
+.tabela_pendencias{
+ 	border-collapse: collapse;
+}
+
+.linhas_tabela {
+    border-color: #D0D0D0;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    font-family: Arial,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    padding: 3px 4px;
+   	text-decoration: none;
+}
+
+#situacao_pendente {
+	color: blue;
+}
+
+#situacao_concluido {
+	color: black;	
+}
+
+#situacao_errata {
+	color: black;
+	text-decoration: line-through;
+}
+
+#situacao_resposta0 {
+	color: red;
+}
+
+#situacao_resposta1 {
+	color: black;
+}

@@ -1,0 +1,140 @@
+body{ margin:0 5px; padding:0;}
+#divLeft{ border:#F00 solid 0px; float:left; clear:both;}
+#divRight{ border:#00F solid 0px; float:left; width:calc(100% - 540px); overflow:auto;}
+#tabelaLeft {font-family:Verdana, Geneva, sans-serif; font-size:10px; border-collapse:collapse; clear:both;}
+#tabelaLeft tr.hover{background:#E1E9FB !important; z-index: auto !important;}
+#tabelaLeft tr.yellow{background:#FDF7C6; z-index:9999;}
+#tabelaLeft tr td{border:#333333 solid 1px;}
+#tabelaRight {font-family:Verdana, Geneva, sans-serif; font-size:10px; border-collapse:collapse; clear:both;}
+#tabelaRight tr.hover{background:#E1E9FB !important; z-index: auto !important;}
+#tabelaRight tr.yellow{background:#FDF7C6; z-index:9999;}
+#tabelaRight tr td{border:#333333 solid 1px;}
+#tabelaRight tr td .clock{position:absolute; display:block; margin-left:17px; margin-top:-43px; z-index:9;}
+#tabelaRight tr td .clock_exe{position:absolute; display:block; margin-top:13px; margin-left:-14px;}
+#tabelaRight tr td .ok_icon{position:absolute; margin-top:-20px; cursor:pointer; z-index:9;}
+#tabelaRight tr td .txt_sigla{ position:absolute; color:#FFFFFF; font-weight:bold; cursor:default; margin-top:-35px; z-index:1;}
+#tabelaRight tr td .txt_title{ position:absolute; width:20px; height:20px; border:#ccc solid 1px;}
+a{ color:#004080;}
+a:hover{ color:#004E9B;}
+.tope{  float:left;}
+.edit{ float: right; background:#004E9B; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:5px 7px; cursor:pointer; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; margin-top:3px; border:#9CBDD8 solid 1px;}
+.edit:hover{background:#0058B0;}
+.save{ float: right; background:#004E9B; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:5px 7px; cursor:pointer; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; margin-top:3px; border:#9CBDD8 solid 1px;}
+.save:hover{background:#0058B0;}
+.nome_label{ float:left; color:#333333; text-transform:uppercase !important; font-size:10px; font-weight:bold; width:450px; margin-top:5px;}
+#tituloPrincipal{float:left; margin-left:5px; width:95%; font-size:11px;}
+#topResponsa{float:left; color:#333333; margin-left:5px; font-size:11px;}
+#myMenu {position:absolute; z-index: 99999; border: solid 1px #CCC; background:#EEE; padding:1px; display:none; width:280px !important; list-style: none !important;}
+#myMenu .closeMenu {cursor:pointer; position:absolute; top:-10px; right:-10px;}
+#myMenu .contextMenu {list-style: none; float:left; padding:0; margin:0; width:100%; overflow:auto; height: auto;}
+#myMenu .contextMenu .liTarefa{ padding:4px;margin:0px; cursor:pointer; font-family:Verdana, Geneva, sans-serif; text-transform:uppercase !important; font-size:10px; text-align:left !important;}
+#myMenu .contextMenu .liTarefa:hover{color: #FFF;background-color: #3399FF;}
+#myMenu .contextMenu .liTarefa .quadro{ width:10px; height:10px; border:#CCC solid 1px; float:left; margin-right:5px; margin-top:1px;}
+#myMenu .contextMenu li .seta{ display:block; float:right;}
+#SubmyMenu{position:absolute; z-index: 99999; border: solid 1px #CCC; background:#EEE; padding:1px; display:none; width:280px !important; list-style: none !important; margin-left:277px; margin-top:-25px;}
+#SubmyMenu .contextMenu{list-style: none; float:left; padding:0; margin:0; width:100%; overflow:auto; height: auto;}
+#SubmyMenu .contextMenu .liTarefa{padding:4px;margin:0px; cursor:pointer; font-family:Verdana, Geneva, sans-serif; text-transform:uppercase !important; font-size:10px; text-align:left !important; color:#333 !important;}
+#SubmyMenu .contextMenu .liTarefa:hover{color: #FFF;background-color: #3399FF;}
+#myMenuRight {position:absolute; z-index: 99999; border: solid 1px #CCC; background:#EEE; padding:1px; display:none; width:280px !important; list-style: none !important;}
+#myMenuRight .closeMenu {cursor:pointer; position:absolute; top:-10px; right:-10px;}
+#myMenuRight .listaMenuRight {list-style: none; float:left; padding:0; margin:0; width:100%; overflow:auto; height: auto;}
+#myMenuRight .listaMenuRight .listaMenu{ padding:4px;margin:0px; cursor:pointer; font-family:Verdana, Geneva, sans-serif; text-transform:uppercase !important; font-size:10px; text-align:left !important;}
+#myMenuRight .listaMenuRight .listaMenu:hover{color: #FFF;background-color: #3399FF;}
+#myMenuRight .listaMenuRight .listaMenu .imgQuadro{ float:left; margin-right:6px;}
+#myObs {position:absolute; z-index: 99999; border: solid 1px #CCC; background:#EEE; padding:1px; list-style: none !important; display:none;}
+#myObs .closeMenu {cursor:pointer; position:absolute; top:-10px; right:-10px;}
+#myObs .corpomyObs {float:left; margin:0; padding:0; list-style:none; width:100%;}
+#myObs .corpomyObs .listaObs { float:left; width:100%; display: none;}
+#myObs .corpomyObs .listaObs .msg_titulo{ float:left; font-size:12px; font-family:Verdana, Geneva, sans-serif; margin:5px 0px; width:85%; text-align:center; color:#004080; font-weight:bold;}
+#myObs .corpomyObs .listaObs .divBotao{margin-top:3px; margin-left:3px;}
+#myObs .corpomyObs .listaObs .imgQuadro{ float:left; margin:4px 5px; }
+#myObs .corpomyObs .listaObs .titulo1 { float:left; padding:4px 0px; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold;}
+#myObs .corpomyObs .listaObs #titulo { float:left; padding:4px 5px; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold;}
+#myObs .corpomyObs .listaObs .msg_erro { float:left; padding:4px 15px; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold; color:#F00; border:1px solid; width:88%; display:none;}
+#myObs .corpomyObs .listaObs ul{list-style: none; float:left; padding:0; margin:0; width:100%;}
+#myObs .corpomyObs .listaObs ul li {padding:4px 0 0 5px; margin:0px; font-family:Verdana, Geneva, sans-serif; !important; font-size:10px; text-align:left !important; float:left;}
+#myObs .corpomyObs .listaObs ul li #obsAlerta{border:1px solid #CCCCCC; float:left; height:109px; resize:none; width:235px; text-transform:uppercase;}
+#myObs .corpomyObs .listaObs ul li #listaUsuario{ border:#333 solid 1px; float: left; width: 300px; height: 110px; overflow: auto;}
+#myObs .corpomyObs .listaObs ul li #selecUsuario{ border:#333 solid 1px; float: left; width: 235px; height: 100px; overflow: auto;}
+#myObs .corpomyObs .listaObs ul li #listaUsuario .itemUsuario{ width:98%; font-size:9px; margin:0; padding:0;}
+#myObs .corpomyObs .listaObs ul li #valor_resposavel{border:1px solid #CCC; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:5px 0 20px; padding:3px;}
+#myObs .corpomyObs .listaObs ul li #hora_alerta{border:1px solid #CCC; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:5px 0 5px; padding:3px; overflow:hidden;}
+#myObs .corpomyObs .listaObs ul li #minuto_alerta{border:1px solid #CCC; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:5px 0 5px; padding:3px; overflow:hidden;}
+#myObs .corpomyObs .listaObs ul li #hora_horario{border:1px solid #CCC; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:5px 0 5px; padding:3px; overflow:hidden;}
+#myObs .corpomyObs .listaObs ul li #minuto_horario{border:1px solid #CCC; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:5px 0 5px; padding:3px; overflow:hidden;}
+#myObs .corpomyObs .listaObs ul li #dataAlerta{border:1px solid #CCC; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:5px 0 5px; padding:3px; width:106px;}
+#myObs .corpomyObs .listaObs .bottom{ float:left; margin:5px 15px;}
+#myObs .corpomyObs .listaObs .bottom .save_horario{float:left; background:#004E9B; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:5px 7px; cursor:pointer;}
+#myObs .corpomyObs .listaObs .bottom .save_horario:hover{background:#0058B0;}
+#msn_save{position:absolute; border:#F00 solid 2px; background:#FFF; width:300px; height:46px; color:#F00; font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:bold; left:50%; margin-left:-160px; top:50%; margin-top:-100px; z-index:9999 !important;}
+#msn_save .img_gif{ float:left; margin:7px 20px;}
+#msn_save .txt_gif{ float:left; margin:15px 0px;}
+.botao{background: #004E9B; color:#FFFFFF; font-weight:bold; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:5px 7px; cursor:pointer; float:left; margin-bottom:5px; margin-right:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; border:#9CBDD8 solid 1px;}
+.botao:hover{background: #0058B0;}
+.botaoFim{background: #008040; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold; border:0; padding:5px 7px; cursor:pointer; float:left; margin-bottom:5px; margin-right:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; border:#00C063 solid 1px;}
+.botaoFim:hover{background:#009D4F;}
+.botaoBack{background:#FF8000; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:5px 7px; cursor:pointer; float:left; margin-bottom:5px; margin-right:5px;
+-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+.botaoBack:hover{background:#FF8F20;}
+/*input[type=text]{font-family:Verdana, Geneva, sans-serif; text-transform:uppercase !important; font-size:12px; float:left;}*/
+.text_nome{font-family:Verdana, Geneva, sans-serif; text-transform:uppercase !important; font-size:11px; float:left;}
+.disabled{background: #F0F0F0 !important; color:#333333 !important; cursor: default !important; }
+.disabled:hover{background: #F0F0F0;cursor: default !important; }
+.erro_geral{ font-family:Verdana, Geneva, sans-serif; font-size:16px; font-weight:bold; color:#F00;}
+.navegacao{ color:#333333; float:left; margin:5px 0; clear:both; border:#CCCCCC solid 1px; width:1000px; height:auto; overflow:auto; }
+.navegacao pre{ margin:0; padding:0; font-family:Verdana, Geneva, sans-serif; font-size:11px; display:inline-block;}
+.navegacao pre .aqui{display:inline-block;}
+.navegacao pre .esta{display:inline-block;}
+.navegacao pre .esta .link{display:inline-block; text-align:center; border:#004E9B solid 1px; margin-right:2px;}
+.navegacao pre .esta .imgArrow{display:inline-block;}
+.tabelaDados{ border:#CCC solid 1px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:6px; width:655px;}
+.tabelaDados .trDados{ background:#FFFFFF !important; font-weight:bold; height:25px;}
+.tabelaDados tr:hover{ background:#B3D9FF !important;}
+.tabelaDados tr td{ font-family:Verdana, Geneva, sans-serif; font-size:11px;}
+.tabelaDados tr td .alterar_alerta{color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:3px 1px; cursor:pointer; float:left; margin:3px 1px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+.tabelaDados tr td .apagar_alerta{color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:3px 1px; cursor:pointer; float:left; margin:3px 1px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+
+.tabelaDados2{ border:#CCC solid 1px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:6px; width:650px;}
+.tabelaDados2 .trDados{ background:#FFFFFF !important; font-weight:bold; height:25px;}
+.tabelaDados2 tr:hover{ background:#B3D9FF !important;}
+.tabelaDados2 tr td{ font-family:Verdana, Geneva, sans-serif; font-size:11px;}
+.tabelaDados2 tr td .alterar_alerta{color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:3px 2px; cursor:pointer; float:left; margin:3px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+.tabelaDados2 tr td .apagar_alerta{color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:3px 2px; cursor:pointer; float:left; margin:3px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+#AddFaseEtapa{background: #FFF; border: 2px solid #333; border: 2px solid rgba(0,0,0,.7); border-radius: 8px; box-shadow: 0 3px 3px rgba(0,0,0,.3); -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; position:absolute; left:50%; margin-left:-100px; z-index:10; margin-top:50px;}
+#AddFaseEtapa .closeMenu {cursor:pointer; position:absolute; top:-10px; right:-10px;}
+#AddFaseEtapa #corpo_aviso{width:350px; margin:15px;}
+#AddFaseEtapa #corpo_aviso .txt_aviso{ font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:bold; margin:10px; text-align:center;}
+#AddFaseEtapa #corpo_aviso .botao1{background:#004E9B; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold; border:0; padding:6px 10px; cursor:pointer; margin:10px 0 10px 75px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+#AddFaseEtapa #corpo_aviso .botao1:hover{background:#0058B0;}
+.set_responsa{ position:absolute; margin-left:-33px; background:#004E9B; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight: normal; border:0; padding:5px 10px; cursor:pointer; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; margin-top:3px; border:#9CBDD8 solid 1px;}
+.set_responsa:hover{background: #0058B0;}
+.itemResponsa{ float:left; color:#004E9B;clear:both; margin-top:0px;}
+.itemResponsa .siglaSetor{ float:left;}
+.itemResponsa .divResponsavel{ float:left;}
+#myResponsa{position:absolute; z-index: 99999; border: solid 1px #CCC; background:#EEE; padding:1px; width:400px !important; list-style: none !important; display:none;}
+#myResponsa .closeMenu {cursor:pointer; position:absolute; top:-10px; right:-10px;}
+#myResponsa .imgQuadro{float:left; margin:6px; display:block;}
+#myResponsa .titulo1 { float:left; padding:7px 0px; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold;}
+#myResponsa ul{list-style: none; float:left; padding:0; margin:0; width:100%;}
+#myResponsa ul li {padding:4px 0 0 7px; margin:0px; font-family:Verdana, Geneva, sans-serif; !important; font-size:10px; text-align:left !important; float:left;}
+#myResponsa ul li #lista_resposavel{border:1px solid #CCC; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:5px 0 20px; padding:3px;}
+#alerta_dia {position:absolute; z-index: 99999; border: solid 1px #CCC; background:#EEE; padding:1px; list-style: none !important; left:50%; margin-left:-500px; top:50%; margin-top:-210px; width:1024px; display:none;}
+#alerta_dia .closeMenu {cursor:pointer; position:absolute; top:-10px; right:-10px;}
+#alerta_dia .imgQuadro{ float:left; margin:4px 5px;}
+#alerta_dia .titulo1 { float:left; padding:4px 0px; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold;}
+#alerta_dia .msg_titulo{ float:left; font-size:12px; font-family:Verdana, Geneva, sans-serif; margin:5px 0px; width:90%; text-align:center; color:#004080; font-weight:bold;}
+#alerta_dia .botao11{background:#004E9B; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:5px 7px; cursor:pointer; float:left; margin-bottom:5px; margin:5px 0 5px 10px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+#alerta_dia .conten_tabela{ border:#999 solid 1px; float:left; clear:both; width:1020px; height:400px; overflow:auto;}
+#alerta_dia #alerta_tabela{ background:#A3C0E8;  float:left; font-family:Verdana, Geneva, sans-serif; font-size:10px; margin:3px; width:1000px; clear:both;}
+#alerta_dia #alerta_tabela .trTitulo{ background: #004E9B repeat !important; font-weight:bold; height:25px;}/*AQUI*/
+#alerta_dia #alerta_tabela tr:hover{ background:#B3D9FF !important;}
+#alerta_dia #alerta_tabela tr td { padding:5px 0;}
+#alerta_dia #alerta_tabela tr td ul{ margin:0; padding:0;}
+#alerta_dia #alerta_tabela tr td ul li{ list-style:none;}
+#alerta_dia #alerta_tabela tr td .alerta_obs{border:1px solid #CCCCCC; float:left; height:70px; resize:none; width:200px; text-transform:uppercase; font-family:Verdana, Geneva, sans-serif; font-size:11px;}
+#alerta_dia #alerta_tabela tr td .alerta_hora{border:1px solid #CCC; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:0px; padding:3px; overflow:hidden; float:left}
+#alerta_dia #alerta_tabela tr td .alerta_minuto{border:1px solid #CCC; font-family:Verdana, Geneva, sans-serif; font-size:11px; margin:0px; padding:3px; overflow:hidden;}
+#alerta_dia #alerta_tabela tr td .alerta_salvar{border:0; padding:3px 1px; cursor:pointer; float:left; margin:3px 1px;}
+#alerta_dia #alerta_tabela tr td .alerta_editar{border:0; padding:3px 1px; cursor:pointer; float:left; margin:3px 1px;}
+#alerta_dia #alerta_tabela tr td .alerta_apagar{border:0; padding:3px 1px; cursor:pointer; float:left; margin:3px 1px;}
+option.fonte {background:#000000; font-weight:bold; color:#FFFFFF;}

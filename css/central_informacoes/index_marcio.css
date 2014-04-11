@@ -1,0 +1,171 @@
+body{margin:0;padding:0;}
+	.topo{height:200px;background-image:url(../../images/central_informacoes/bgTopo.png);margin:0; padding-top:10px;}
+			
+		.topo .codCliente{display:none;height:70px;color:#fff;font-family:Tahoma, Geneva, sans-serif;margin-top:-10px;}
+		.topo .codigo{display:none;width:200px;height:30px;background-color:#3e72bb;float:left;margin:0 0 0 10px;padding:30px 20px 0 20px;border-bottom-right-radius: 1em;border-bottom-left-radius: 1em;}
+		.topo .cliente{display:none;min-width:300px;height:30px;background-color:#3e72bb;float:left;margin:0 0 0 10px;padding:30px 20px 0 20px;border-bottom-right-radius:1em;border-bottom-left-radius:1em;}
+		
+		.topo .primeiroAcesso{width:350px;height:38px;padding:20px 0 0 10px;background-color:#ffec85;border-top-right-radius:0.5em;border-bottom-right-radius:0.5em;border:1px solid #CCC;}
+		.topo .primeiroAcesso span{color:#6f6f6f; font-size:16px; font-family:Verdana, Geneva, sans-serif;}
+			
+		/* CSS SÓ PARA PERSONALIZAÇÃO DO RADIO*/
+		.topo .radio{margin:10px 0 0 10px;}
+		.topo label{display:inline-block;cursor:pointer;position:relative;padding-left: 25px;margin-right: 15px;font-size: 16px;color: #767676;font-family:Verdana, Geneva, sans-serif;} 
+		.topo input[type=radio]{display:none;}
+		.topo label:before {content:"";display:inline-block;width:16px;height:16px;margin-right:10px;position:absolute;left:0;bottombottom:1px;background-color: #aaa;box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);}
+		.topo .radio label:before{border-radius: 8px;}
+		.topo input[type=radio]:checked + label:before{content: "\2022";color:#f3f3f3;font-size:22px;text-align:center;line-height:13px;}    
+		/* FIM CSS SÓ PARA PERSONALIZAÇÃO DO RADIO*/
+		
+		.topo select{height:40px;font-family:Verdana, Geneva, sans-serif;font-size:14px;color:#767676;margin:10px 0 0 10px;cursor:pointer;}
+		@-moz-document url-prefix(){
+			 .topo select{padding:10px 0 0 0;} }
+
+
+#ITEM_0 {
+	
+    background-image: url("../../images/central_informacoes/scriptcase__NM__space_blue.jpg");
+	 border-color: #A3C0E8;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+	font-size:16px;
+	color:#006633;"
+	font-weight: bold;
+}
+
+
+/*  alteração MARCIO E MATHEUS */
+.titulo_tabela
+{
+	background-image: url("../../images/central_informacoes/scriptcase__NM__space_blue.jpg");
+    border-color: #A3C0E8;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 4px;
+    text-decoration: none;
+	
+}
+
+
+.tabela_pendencias{
+ 	border-collapse: collapse;
+}
+
+.linhas_tabela {
+    border-color: #D0D0D0;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    font-family: Arial,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    padding: 3px 4px;
+   	text-decoration: none;
+}
+
+#situacao_pendente {
+	color: blue;
+}
+
+#situacao_concluido {
+	color: black;	
+}
+
+#situacao_errata {
+	color: black;
+	text-decoration: line-through;
+}
+
+#situacao_resposta0 {
+	color: red;
+}
+
+#situacao_resposta1 {
+	color: black;
+}
+
+
+// Estilizando os botões
+
+.barra_ferramenta {
+	
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	color: #555;
+	font-weight:bold;
+	border-color: #9CBDD8;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	padding: 3px 14px;
+	cursor: pointer;
+	background-image: url("../../images/central_informacoes/scriptcase__NM__space_blue.jpg"); 	
+}
+
+.button_vermelho {
+	
+	border:1px solid #77021D;
+	-webkit-box-shadow: #FFFFFF 0px 0px 1px inset;
+	-moz-box-shadow: #FFFFFF 0px 0px 1px inset; 
+	box-shadow: #FFFFFF 0px 0px 1px inset; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size:11px;
+	font-family:arial, helvetica, sans-serif; 
+	padding: 3px 14; 
+	text-decoration:none; 
+	display:inline-block;
+	text-shadow: 0px 2px 0 rgba(0,0,0,0.5);
+	font-weight:bold; color: #FFFFFF;
+	background-color: #f62b2b; 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f62b2b), to(#d20202));
+	background-image: -webkit-linear-gradient(top, #f62b2b, #d20202);
+	background-image: -moz-linear-gradient(top, #f62b2b, #d20202);
+	background-image: -ms-linear-gradient(top, #f62b2b, #d20202);
+	background-image: -o-linear-gradient(top, #f62b2b, #d20202);
+	background-image: linear-gradient(to bottom, #f62b2b, #d20202);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f62b2b, endColorstr=#d20202);
+}
+
+.button_vermelho:hover {
+	
+	border:1px solid #77021D;
+ 	background-color: #e40a0a; background-image: -webkit-gradient(linear, left top, left bottom, from(#e40a0a), to(#9f0202));
+ 	background-image: -webkit-linear-gradient(top, #e40a0a, #9f0202);
+ 	background-image: -moz-linear-gradient(top, #e40a0a, #9f0202);
+ 	background-image: -ms-linear-gradient(top, #e40a0a, #9f0202);
+ 	background-image: -o-linear-gradient(top, #e40a0a, #9f0202);
+ 	background-image: linear-gradient(to bottom, #e40a0a, #9f0202);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e40a0a, endColorstr=#9f0202);
+}
+
+/* -------------- Adicionar no index -------------------------- */
+
+/*
+.barra_ferramenta { background: #004E9B; color:#FFFFFF; font-family:Verdana, Geneva, sans-serif; font-size:11px; border:0; padding:5px 7px; cursor:pointer; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; position:absolute; margin-left:15px; margin-top:3px; border:#9CBDD8 solid 1px;}
+.barra_ferramentas2:hover{background:#0058B0;}
+*/
+
+
+.barra_ferramenta {
+	background: #004E9B; 
+	float: left;
+	color:#FFFFFF; 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:11px; 
+	border:0; padding:5px 7px; 
+	cursor:pointer; 
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px; 
+	border-radius:5px;  
+	margin-left:15px; 
+	margin-top:3px; 
+	border:#9CBDD8 solid 1px;
+}
+
+.barra_ferramenta:hover {background:#0058B0;}
