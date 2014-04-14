@@ -16,8 +16,12 @@ ppppppppp
 teste marcio 2
 
 
+<<<<<<< HEAD
 
 teste marcio 4 
+=======
+teste marcio 3
+>>>>>>> 64f74caf85654a71a701045f174c164897050ba7
 
 <body>
 </body>
